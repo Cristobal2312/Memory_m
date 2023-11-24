@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="name">16dp</dimen>
+    <dimen name="time">16dp</dimen>
+
+</resources>

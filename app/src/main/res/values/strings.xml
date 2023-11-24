@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Control Pill</string>
+
+    //-----Main Activity----
+    <string name="Btn_Login">Login</string>
+    <string name="Btn_Registro">Registro</string>
+    //------Actividad Registro------
+    <string name="CrearCuentaTXT">Crear una cuenta</string>
+    <string name="NombreEt">Nombres</string>
+    <string name="CorreoEt">Correo electronico</string>
+    <string name="ContraseñaEt">Contraseña</string>
+    <string name="ConfirmarContraseñaEt">Confirmar contraseña</string>
+    <string name="RegistroUsuario">Registrar</string>
+    <string name="TengounacuentaTXT">Tengo una cuenta</string>
+
+    //---------Menu Principal----->
+    <string name="CerrarSesion">Salir</string>
+    <string name="BienvenidoPrincipal">Bienvenido(a)</string>
+    <string name="NombresPrincipal">--</string>
+    <string name="correoPrincipal">--</string>
+
+
+    //-----------Actividad login------->
+    <string name="IniciarSesionTXT">Iniciar sesion</string>
+    <string name="correoLogin">correo</string>
+    <string name="passPoling">contraseña</string>
+    <string name="BtnLogeo">Ingresar</string>
+    <string name="UsuarioNuevoTXT">¿No tiene una cuenta?, Registrate aqui</string>
+    //--------- Agregar medicamento------>
+    <string name="Titulo">Nombre del medicamento</string>
+    <string name="Descripcion">Descripcion del medicamento</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    //--------------------Actividades de alarma------------>
+    <string name="add">add</string>
+    <string name="cancel">cancel</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>
