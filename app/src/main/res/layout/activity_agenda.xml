@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
     android:padding="16dp"
     tools:context=".vista.agenda">
 
@@ -17,15 +18,19 @@
         <EditText
             android:id="@+id/editTextTitulo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/Titulo" />
+            android:layout_height="43dp"
+            android:hint="@string/Titulo"
+            android:textColor="@color/white"
+            android:textColorHint="#F1EDED" />
 
         <EditText
             android:id="@+id/editTextdescription"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginTop="16dp"
-            android:hint="@string/Descripcion" />
+            android:hint="@string/Descripcion"
+            android:textColor="#F4F2F2"
+            android:textColorHint="#F4EFEF" />
     </LinearLayout>
 
     <Button
@@ -58,12 +63,20 @@
             android:text="Registrar Medicamento" />
     </LinearLayout>
 
+
     <ListView
         android:id="@+id/listviewMedicamento"
-        android:layout_width="match_parent"
-        android:layout_height="410dp"
+        android:layout_width="wrap_content"
+        android:layout_height="406dp"
+        android:layout_above="@id/add"
         android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="306dp"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="293dp"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:textColor="#121111"
+        tools:ignore="NotSibling" />
+        <!-- Agrega esta línea para cambiar el color de fondo a blanco -->
 </RelativeLayout>

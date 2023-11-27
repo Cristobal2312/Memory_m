@@ -1,6 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2">
 
     <ListView
         android:id="@+id/listView"
@@ -13,12 +14,14 @@
         android:layout_marginLeft="@dimen/margin"
         android:layout_marginRight="@dimen/margin"
         android:layout_alignParentTop="true"
-        android:layout_above="@id/add"/>
+        android:layout_above="@id/add"
+        android:textColor="#000000" /> <!-- Agrega esta línea para cambiar el color del texto a negro -->
 
     <Button
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="@string/add"/>
+        android:text="@string/add"
+        android:textColor="#000000" /> <!-- Agrega esta línea para cambiar el color del texto del botón a negro -->
 </RelativeLayout>

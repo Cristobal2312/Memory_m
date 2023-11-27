@@ -33,9 +33,6 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".modelo.AddActivity" />
         <activity
-            android:name=".vista.Lista_medicamentos"
-            android:exported="false" />
-        <activity
             android:name=".vista.agenda"
             android:exported="false" />
         <activity

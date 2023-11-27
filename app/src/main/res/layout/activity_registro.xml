@@ -2,126 +2,153 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".vista.Registro">
+
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
         android:orientation="vertical"
-        >
+        android:padding="10dp"
+        android:visibility="visible"
+        tools:visibility="visible">
+
         <TextView
-            android:text="@string/CrearCuentaTXT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="25sp"
             android:layout_gravity="center"
-            />
+            android:text="@string/CrearCuentaTXT"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
         <com.airbnb.lottie.LottieAnimationView
             android:layout_width="200dp"
             android:layout_height="200dp"
-            app:lottie_imageAssetsFolder="assets"
-            app:lottie_fileName="Registro.json"
-            app:lottie_loop="true"
-            app:lottie_autoPlay="true"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"/>
+            android:layout_marginTop="10dp"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="loginIcon.json"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_loop="true" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="15dp"
+
+            app:boxBackgroundColor="@color/white">
+
             <EditText
                 android:id="@+id/NombreEt"
-                android:hint="@string/NombreEt"
-                android:inputType="textPersonName|textCapWords"
-                android:fontFamily="@font/manrope"
-                android:padding="20dp"
-                android:drawablePadding="10dp"
-                android:drawableStart="@drawable/icono_nombres"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
+                android:drawableStart="@drawable/icono_nombres"
+                android:drawablePadding="10dp"
+                android:drawableTint="#0C0C0C"
+                android:hint="@string/NombreEt"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:textColor="@color/black"
+                android:textColorHint="#101010" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="@color/white">
 
             <EditText
                 android:id="@+id/CorreoEt"
-                android:hint="@string/CorreoEt"
-                android:inputType="textEmailAddress"
-                android:fontFamily="@font/manrope"
-                android:padding="20dp"
-                android:drawablePadding="10dp"
-                android:drawableStart="@drawable/icono_correo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
+                android:drawableStart="@drawable/icono_correo"
+                android:drawablePadding="10dp"
+                android:drawableTint="#101010"
+                android:hint="@string/CorreoEt"
+                android:inputType="textEmailAddress"
+                android:padding="20dp"
+                android:textColor="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:passwordToggleEnabled="true"
-            app:hintEnabled="false">
+            app:boxBackgroundColor="@color/white"
+            app:hintEnabled="false"
+
+            app:passwordToggleEnabled="true">
 
             <EditText
                 android:id="@+id/ContraseñaEt"
-                android:hint="@string/ContraseñaEt"
-                android:inputType="textPassword"
-                android:fontFamily="@font/manrope"
-                android:padding="20dp"
-                android:drawablePadding="10dp"
-                android:drawableStart="@drawable/icono_password"
+                style="@style/Widget.AppCompat.AutoCompleteTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
+                android:drawableStart="@drawable/icono_password"
+                android:drawablePadding="10dp"
+                android:drawableTint="#090909"
+                android:hint="@string/ContraseñaEt"
+                android:inputType="textPassword"
+                android:outlineAmbientShadowColor="#050505"
+                android:outlineSpotShadowColor="#0C0C0C"
+                android:padding="24dp"
+                android:shadowColor="#0C0C0C"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textColorHint="#070707"
+                android:visibility="visible" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:passwordToggleEnabled="true"
-            app:hintEnabled="false">
+            android:foregroundTint="#090909"
+            android:textColorHint="#0B0A0A"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeColor="#070707"
+            app:endIconTint="#050505"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true">
 
             <EditText
                 android:id="@+id/ConfirmarContraseñaEt"
-                android:hint="@string/ConfirmarContraseñaEt"
-                android:inputType="textPassword"
-                android:fontFamily="@font/manrope"
-                android:padding="20dp"
-                android:drawablePadding="10dp"
-                android:drawableStart="@drawable/icono_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                />
+                android:drawableStart="@drawable/icono_password"
+                android:drawablePadding="10dp"
+                android:foregroundTint="#121111"
+                android:hint="@string/ConfirmarContraseñaEt"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:shadowColor="#1C1B1B"
+                android:textColor="@color/black"
+                android:textColorHint="#070707"
+                android:visibility="visible" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/RegistroUsuario"
-            android:text="@string/RegistroUsuario"
-            android:layout_marginTop="15dp"
-            android:fontFamily="@font/manrope"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/RegistroUsuario"
             android:textSize="10sp"
-            />
+            app:iconTint="#090909" />
+
         <TextView
             android:id="@+id/TengocuentaTXT"
-            android:text="@string/TengounacuentaTXT"
-            android:fontFamily="@font/manrope"
-            android:textSize="10sp"
-            android:layout_gravity="center"
-            android:textStyle="bold"
-            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/TengounacuentaTXT"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 </ScrollView>

@@ -2,17 +2,20 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TimePicker
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:numbersBackgroundColor="@color/white"
         android:id="@+id/timePicker"
         android:layout_marginTop="@dimen/margin"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginStart="@dimen/margin"
         android:layout_marginLeft="@dimen/margin"
         android:layout_marginRight="@dimen/margin"
+        android:numbersTextColor="@color/black"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +29,7 @@
         android:id="@+id/name"
         android:layout_below="@+id/timePicker"
         android:layout_marginTop="@dimen/margin"
+        android:textColor="@color/white"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginStart="@dimen/margin"
         android:layout_marginLeft="@dimen/margin"

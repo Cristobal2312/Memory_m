@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
     tools:context=".vista.MenuPrincipal">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -32,7 +33,6 @@
                     android:id="@+id/BienvenidoPrincipal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/manrope"
                     android:text="@string/BienvenidoPrincipal"
                     android:textColor="#fff"
                     android:textSize="20sp" />
@@ -48,7 +48,6 @@
                     android:id="@+id/NombresPrincipal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/manrope"
                     android:text="@string/BienvenidoPrincipal"
                     android:textColor="#fff"
                     android:textSize="20sp"
@@ -58,7 +57,6 @@
                     android:id="@+id/CorreoPrincipal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/manrope"
                     android:text="@string/BienvenidoPrincipal"
                     android:textColor="#fff"
                     android:textSize="20sp"
@@ -84,13 +82,15 @@
     <TextView
         android:layout_width="99dp"
         android:layout_height="42dp"
+        android:textColor="@color/black"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="67dp"
         android:layout_marginBottom="315dp"
-        android:text="Registro de medicamento" />
+        android:text="Centro medicos cercanos" />
 
     <!-- ImageView2 -->
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="150dp"
@@ -98,10 +98,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="237dp"
-        android:layout_marginBottom="156dp"
-        android:src="@drawable/imagen2" />
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="146dp"
+        android:src="@drawable/imagen1" />
 
     <TextView
         android:layout_width="100dp"
@@ -109,9 +109,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="48dp"
+        android:textColor="@color/black"
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="316dp"
-        android:text="Medicamentos" />
+        android:text="Agenda de medicamentos" />
 
     <!-- ImageView3 -->
     <ImageView
@@ -124,18 +125,20 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="237dp"
         android:layout_marginBottom="360dp"
-        android:src="@drawable/imagen1" />
+        android:src="@drawable/imagen2" />
+
+    <!-- ImageView4 (CerrarSesion) -->
 
     <TextView
         android:layout_width="102dp"
         android:layout_height="36dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="49dp"
-        android:layout_marginBottom="109dp"
-        android:text="Recordatorio de medicamentos" />
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="101dp"
+        android:text="Recordatorio de medicamentos"
+        android:textColor="@color/black" />
 
-    <!-- ImageView4 (CerrarSesion) -->
     <ImageView
         android:id="@+id/CerrarSesion"
         android:layout_width="50dp"
@@ -150,6 +153,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
+        android:textColor="@color/black"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="80dp"

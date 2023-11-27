@@ -13,12 +13,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:textColor="@color/white"
             android:id="@+id/timeTextView"
             android:textSize="@dimen/time"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:textColor="@color/white"
             android:id="@+id/nameTextView"
             android:textSize="@dimen/name"
             android:layout_below="@+id/timeTextView"/>
