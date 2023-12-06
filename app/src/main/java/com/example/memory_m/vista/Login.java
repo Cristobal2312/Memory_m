@@ -72,7 +72,7 @@ public class Login extends AppCompatActivity {
 
                         // Redirecciona a la actividad principal o realiza cualquier otra acción necesaria
                         // Ejemplo:
-                        startActivity(new Intent(Login.this, MenuPrincipal.class));
+                        startActivity(new Intent(Login.this, AdminActivity.class));
                         finish();
                     }
                 })

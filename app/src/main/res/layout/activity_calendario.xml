@@ -3,19 +3,39 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo2">
 
+    <!-- TextView para el mensaje -->
+
+    <!-- ListView -->
+
+    <!-- Botón "Add" -->
+
+    <TextView
+        android:id="@+id/mensajeAlarma"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/add"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="6dp"
+        android:text="Nota: Presiona el botón 'Si' para hacer funcionar la alarma."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
     <ListView
         android:id="@+id/listView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/margin"
-        android:layout_marginBottom="@dimen/margin"
-        android:layout_marginEnd="@dimen/margin"
+        android:layout_width="wrap_content"
+        android:layout_height="618dp"
+        android:layout_above="@id/add"
+        android:layout_below="@id/mensajeAlarma"
+        android:layout_alignParentTop="true"
         android:layout_marginStart="@dimen/margin"
         android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="@dimen/margin"
         android:layout_marginRight="@dimen/margin"
-        android:layout_alignParentTop="true"
-        android:layout_above="@id/add"
-        android:textColor="#000000" /> <!-- Agrega esta línea para cambiar el color del texto a negro -->
+        android:layout_marginBottom="52dp"
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/add"
@@ -23,5 +43,5 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="@string/add"
-        android:textColor="#000000" /> <!-- Agrega esta línea para cambiar el color del texto del botón a negro -->
+        android:textColor="@color/white" /> <!-- Agrega esta línea para cambiar el color del texto del botón a negro -->
 </RelativeLayout>

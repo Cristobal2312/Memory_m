@@ -105,7 +105,7 @@ public class Registro extends AppCompatActivity {
 
                         // Redirige a la actividad de inicio o realiza cualquier otra acción necesaria
                         // Ejemplo:
-                        startActivity(new Intent(Registro.this, MenuPrincipal.class));
+                        startActivity(new Intent(Registro.this, AdminActivity.class));
                         finish();
                     }
                 })

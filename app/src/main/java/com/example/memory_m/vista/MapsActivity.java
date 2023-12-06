@@ -40,7 +40,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         LatLng CentrodeSaludFamiliar = new LatLng(-30.589400571075476, -71.19273598818133);
         myMap.addMarker(new MarkerOptions().position(CentrodeSaludFamiliar).title("Centro de Salud Familiar Jorge Jordán Domic"));
 
-        LatLng CentrodeSaludMarcosMacuada = new LatLng(-30.589400571075476, -71.19273598818133);
+        LatLng CentrodeSaludMarcosMacuada = new LatLng(-30.5908567549556,-71.18367799355063);
         myMap.addMarker(new MarkerOptions().position(CentrodeSaludMarcosMacuada).title("Centro de Salud Familiar Marcos Macuada"));
         // Mueve la cámara al primer marcador (Cesfam Fray Jorge) y ajusta el zoom
         myMap.moveCamera(CameraUpdateFactory.newLatLngZoom(cesfamFrayJorge, 12));

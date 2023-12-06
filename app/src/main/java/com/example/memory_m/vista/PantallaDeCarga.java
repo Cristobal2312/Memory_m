@@ -37,7 +37,7 @@ public class PantallaDeCarga extends AppCompatActivity {
             startActivity(new Intent(PantallaDeCarga.this, MainActivity.class));
             finish();
         }else{
-            startActivity(new Intent(PantallaDeCarga.this, MenuPrincipal.class));
+            startActivity(new Intent(PantallaDeCarga.this, AdminActivity.class));
             finish();
         }
 

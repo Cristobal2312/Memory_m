@@ -4,8 +4,11 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
@@ -94,6 +97,7 @@ public class MenuPrincipal extends AppCompatActivity {
         comprobarInicioSesion();
     }
 
+
     private void comprobarInicioSesion() {
         if (user != null) {
             cargaDeDatos();
@@ -125,6 +129,41 @@ public class MenuPrincipal extends AppCompatActivity {
                 // Manejar errores de Firebase aquí si es necesario.
             }
         });
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.menu_botton,menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        super.onOptionsItemSelected(item);
+        if (item.getItemId() == R.id.fragmentUno) {
+            ActivityMenuPrincipal();
+        }
+        if (item.getItemId() == R.id.fragmentDos) {
+            ActivityMaps();
+        }
+        if (item.getItemId() == R.id.fragmentTres) {
+            ActivityDatosUsuarios();
+        }
+        return true;
+    }
+
+    private void ActivityDatosUsuarios() {
+        Intent intent = new Intent(MenuPrincipal.this, DatosUsuarios.class);
+        startActivity(intent);
+    }
+
+    private void ActivityMaps() {
+        Intent intent = new Intent(MenuPrincipal.this, MapsActivity.class);
+        startActivity(intent);
+    }
+
+    private void ActivityMenuPrincipal() {
+        Intent intent = new Intent(MenuPrincipal.this, MenuPrincipal.class);
+        startActivity(intent);
     }
 
     private void salirAplicacion() {

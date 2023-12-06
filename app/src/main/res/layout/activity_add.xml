@@ -8,14 +8,14 @@
     <TimePicker
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numbersBackgroundColor="@color/white"
+        android:numbersBackgroundColor="@color/black"
         android:id="@+id/timePicker"
         android:layout_marginTop="@dimen/margin"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginStart="@dimen/margin"
         android:layout_marginLeft="@dimen/margin"
         android:layout_marginRight="@dimen/margin"
-        android:numbersTextColor="@color/black"
+        android:numbersTextColor="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,6 @@
         android:id="@+id/name"
         android:layout_below="@+id/timePicker"
         android:layout_marginTop="@dimen/margin"
-        android:textColor="@color/white"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginStart="@dimen/margin"
         android:layout_marginLeft="@dimen/margin"
@@ -51,11 +50,11 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/button_save"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/add"/>
+            android:text="@string/add" />
 
         <Button
             android:layout_width="wrap_content"
