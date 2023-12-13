@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2"
+    android:background="@drawable/fondo_gradiente"
     tools:context=".vista.MainActivity">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -35,14 +35,20 @@
             android:text="@string/Btn_Login"
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue_button"
+            android:textColor="@color/white"
+            />
 
         <Button
             android:id="@+id/Btn_Registro"
             android:text="@string/Btn_Registro"
             android:layout_marginTop="5dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue_button"
+            android:textColor="@color/white"
+            />
 
 
 

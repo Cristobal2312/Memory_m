@@ -1,7 +1,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2">
+    android:background="@drawable/fondo_gradiente">
 
     <!-- TextView para el mensaje -->
 
@@ -19,7 +19,7 @@
         android:layout_marginBottom="6dp"
         android:text="Nota: Presiona el botón 'Si' para hacer funcionar la alarma."
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="16sp" />
 
     <ListView
@@ -43,5 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="@string/add"
-        android:textColor="@color/white" /> <!-- Agrega esta línea para cambiar el color del texto del botón a negro -->
+        android:textColor="@color/white"
+        android:backgroundTint="@color/blue_button"
+        /> <!-- Agrega esta línea para cambiar el color del texto del botón a negro -->
 </RelativeLayout>

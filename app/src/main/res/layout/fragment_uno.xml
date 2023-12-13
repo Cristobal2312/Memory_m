@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/fondo2"
+    android:background="@drawable/fondo_gradiente"
     tools:context=".FragmentUno">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -97,7 +97,7 @@
         android:layout_marginEnd="23dp"
         android:layout_marginBottom="235dp"
         android:text="Agenda de medicamentos"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
     <ImageView
@@ -120,7 +120,7 @@
         android:layout_marginStart="187dp"
         android:layout_marginBottom="234dp"
         android:text="Recordatorio de medicamentos"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
     <TextView
@@ -130,7 +130,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="129dp"
         android:text="© Cristobal Saez / Alumno Santo Tomas"
-        android:textColor="#0C0C0C"
+        android:textColor="#EDE8E8"
         android:textSize="14sp" />
 
 

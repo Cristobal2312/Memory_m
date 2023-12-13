@@ -2,9 +2,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@drawable/fondo2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo_gradiente"
+    android:foregroundTint="#090808"
     tools:context=".vista.Registro">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -38,7 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
 
-            app:boxBackgroundColor="@color/white">
+            app:boxBackgroundColor="#7A7979">
 
             <EditText
                 android:id="@+id/NombreEt"
@@ -48,17 +49,20 @@
                 android:drawablePadding="10dp"
                 android:drawableTint="#0C0C0C"
                 android:hint="@string/NombreEt"
+                android:hyphenationFrequency="normal"
                 android:inputType="textPersonName|textCapWords"
                 android:padding="20dp"
                 android:textColor="@color/black"
-                android:textColorHint="#101010" />
+                android:textColorHighlight="#0B0B0B"
+                android:textColorHint="#101010"
+                android:textColorLink="#0E0E0E" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:boxBackgroundColor="@color/white">
+            app:boxBackgroundColor="#7A7979">
 
             <EditText
                 android:id="@+id/CorreoEt"
@@ -70,14 +74,15 @@
                 android:hint="@string/CorreoEt"
                 android:inputType="textEmailAddress"
                 android:padding="20dp"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textColorHint="#070707" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundColor="#7A7979"
             app:hintEnabled="false"
 
             app:passwordToggleEnabled="true">
@@ -98,7 +103,6 @@
                 android:shadowColor="#0C0C0C"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
-                android:textColorHint="#070707"
                 android:visibility="visible" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -108,7 +112,7 @@
             android:layout_marginTop="10dp"
             android:foregroundTint="#090909"
             android:textColorHint="#0B0A0A"
-            app:boxBackgroundColor="@color/white"
+            app:boxBackgroundColor="#7A7979"
             app:boxStrokeColor="#070707"
             app:endIconTint="#050505"
             app:hintEnabled="false"
@@ -120,13 +124,13 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/icono_password"
                 android:drawablePadding="10dp"
+                android:drawableTint="#0C0C0C"
                 android:foregroundTint="#121111"
                 android:hint="@string/ConfirmarContraseñaEt"
                 android:inputType="textPassword"
                 android:padding="20dp"
                 android:shadowColor="#1C1B1B"
                 android:textColor="@color/black"
-                android:textColorHint="#070707"
                 android:visibility="visible" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -137,7 +141,9 @@
             android:layout_marginTop="15dp"
             android:text="@string/RegistroUsuario"
             android:textSize="10sp"
-            app:iconTint="#090909" />
+           android:textColor="@color/white"
+            android:backgroundTint="@color/blue_button"
+            />
 
         <TextView
             android:id="@+id/TengocuentaTXT"
@@ -146,7 +152,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:text="@string/TengounacuentaTXT"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="10sp"
             android:textStyle="bold" />
 

@@ -7,5 +7,6 @@
     <color name="colorPrimary">#3498db</color>
     <color name="colorPrimaryDark">#2980b9</color>
     <color name="colorAccent">#2ecc71</color>
+    <color name="blue_button">#3F4C89</color>
 
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo_medicamento"
+    android:background="@drawable/fondo_gradiente"
     tools:context=".vista.PantallaDeCarga">
 
     <androidx.appcompat.widget.LinearLayoutCompat

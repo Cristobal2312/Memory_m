@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.Bundle;
 
-import com.example.memory_m.R;
+import com.cristobal.memory_m.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

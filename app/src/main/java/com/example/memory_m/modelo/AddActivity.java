@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.memory_m.R;
+import com.cristobal.memory_m.R;
 import com.example.memory_m.controlador.DatabaseHelper;
 import com.example.memory_m.modelo.Alarm;
 

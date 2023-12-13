@@ -10,11 +10,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.memory_m"
+    namespace = "com.cristobal.memory_m"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.memory_m"
+        applicationId = "com.cristobal.memory_m"
         minSdk = 29
         targetSdk = 33
         versionCode = 1

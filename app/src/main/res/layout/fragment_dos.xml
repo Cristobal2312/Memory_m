@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2"
+    android:background="@drawable/fondo_gradiente"
     tools:context=".FragmentDos">
 
     <!-- ImageView1 -->
@@ -20,7 +20,7 @@
         android:layout_below="@id/imageView1"
         android:layout_centerHorizontal="true"
         android:text="Centro médicos cercanos"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
     <TextView
@@ -30,7 +30,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="133dp"
         android:text="© Cristobal Saez / Alumno Santo Tomas"
-        android:textColor="#0C0C0C"
+        android:textColor="#FFFFFF"
         android:textSize="14sp" />
 
 

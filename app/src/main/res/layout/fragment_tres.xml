@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@drawable/fondo2"
+    android:background="@drawable/fondo_gradiente"
     tools:context=".FragmentTres">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -78,7 +78,7 @@
         android:layout_below="@id/CerrarSesion"
         android:layout_centerHorizontal="true"
         android:text="Cerrar sesión"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp" />
 
     <TextView
@@ -88,7 +88,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="90dp"
         android:text="© Cristobal Saez / Alumno Santo Tomas"
-        android:textColor="#151515"
+        android:textColor="#FFFFFF"
         android:textSize="14sp" />
 
 

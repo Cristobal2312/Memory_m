@@ -16,6 +16,8 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+
+import com.cristobal.memory_m.R;
 import com.example.memory_m.vista.MapsActivity;
 import com.example.memory_m.vista.agenda;
 import com.example.memory_m.vista.calendario;

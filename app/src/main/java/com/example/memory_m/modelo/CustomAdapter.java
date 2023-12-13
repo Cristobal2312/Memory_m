@@ -14,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-import com.example.memory_m.R;
+import com.cristobal.memory_m.R;
 import com.example.memory_m.controlador.DatabaseHelper;
 import com.example.memory_m.vista.calendario;
 

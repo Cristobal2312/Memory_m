@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 
-import com.example.memory_m.R;
+import com.cristobal.memory_m.R;
 import com.example.memory_m.vista.calendario;
 
 public class AlarmReceiver extends BroadcastReceiver {

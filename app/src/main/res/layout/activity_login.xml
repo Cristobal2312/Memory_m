@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2"
+    android:background="@drawable/fondo_gradiente"
     tools:context=".vista.Login">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -34,7 +34,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundColor="#7A7979"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp">
 
@@ -44,17 +44,17 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/icono_correo"
                 android:drawablePadding="10dp"
+                android:drawableTint="#000000"
                 android:hint="@string/correoLogin"
                 android:inputType="textEmailAddress"
                 android:padding="20dp"
                 android:textColor="#000000"
                 android:textColorHint="#0B0A0A" />
         </com.google.android.material.textfield.TextInputLayout>
-
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:boxBackgroundColor="#FFFFFF"
+            app:boxBackgroundColor="#7A7979"
             app:passwordToggleEnabled="true"
             android:layout_marginTop="15dp">
 
@@ -64,11 +64,17 @@
                 android:layout_height="wrap_content"
                 android:drawableStart="@drawable/icono_password"
                 android:drawablePadding="10dp"
+                android:drawableTint="#171717"
+                android:fontFamily="@font/manrope"
                 android:hint="@string/passPoling"
                 android:inputType="textPassword"
                 android:padding="20dp"
                 android:textColor="#000000"
-                android:textColorHint="#0C0C0C" />
+                android:textColorHighlight="#000000"
+                android:textColorHint="#0C0C0C"
+                android:textColorLink="#000000" />
+
+
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
@@ -77,12 +83,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:textColor="#000000"
+            android:backgroundTint="@color/blue_button"
+            android:textColor="@color/white"
             />
 
         <TextView
             android:id="@+id/UsuarioNuevoTXT"
-            android:textColor="#000000"
+            android:textColor="#F3EEEE"
             android:text="@string/UsuarioNuevoTXT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

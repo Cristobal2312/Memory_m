@@ -2,20 +2,20 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondo2"
+    android:background="@drawable/fondo_gradiente"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TimePicker
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:numbersBackgroundColor="@color/black"
+        android:numbersBackgroundColor="@color/white"
         android:id="@+id/timePicker"
         android:layout_marginTop="@dimen/margin"
         android:layout_marginEnd="@dimen/margin"
         android:layout_marginStart="@dimen/margin"
         android:layout_marginLeft="@dimen/margin"
         android:layout_marginRight="@dimen/margin"
-        android:numbersTextColor="@color/white"
+        android:numbersTextColor="@color/black"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,16 +51,22 @@
 
         <Button
             android:id="@+id/button_save"
-            android:layout_width="100dp"
+            android:layout_width="129dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/add" />
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue_button"
+            />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button_cancel"
             android:layout_weight="1"
-            android:text="@string/cancel"/>
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/blue_button"
+            />
     </LinearLayout>
 </RelativeLayout>

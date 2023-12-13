@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.memory_m.R;
+import com.cristobal.memory_m.R;
 
 public class MainActivity extends AppCompatActivity {
 

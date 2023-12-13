@@ -2,7 +2,7 @@ package com.example.memory_m.vista;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.example.memory_m.R;
+import com.cristobal.memory_m.R;
 
 public class DatosUsuarios extends AppCompatActivity {
 

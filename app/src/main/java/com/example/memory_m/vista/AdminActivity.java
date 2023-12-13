@@ -11,7 +11,7 @@ import android.view.MenuItem;
 import com.example.memory_m.FragmentDos;
 import com.example.memory_m.FragmentTres;
 import com.example.memory_m.FragmentUno;
-import com.example.memory_m.R;
+import com.cristobal.memory_m.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class AdminActivity extends AppCompatActivity {
